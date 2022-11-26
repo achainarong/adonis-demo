@@ -4,7 +4,6 @@ build
 coverage
 .vscode
 .DS_STORE
-.env
 tmp
 
 # Additional .gitignore ignores (any custom file you wish)

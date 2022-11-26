@@ -2,6 +2,7 @@ FROM node:16.13.1-alpine
 
 RUN apk --no-cache add dumb-init
 RUN mkdir -p /home/node/app && chown node:node /home/node/app
+COPY .env /home/node/app/.env
 WORKDIR /home/node/app
 USER node
 RUN mkdir tmp
